@@ -12,6 +12,35 @@
 
 ![screenshot](/public/screenshot.png)
 
+## 部署 Deployment
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHoshinoSuzumi%2Fai_couplets&env=OPENAI_ENDPOINT,OPENAI_MODEL,OPENAI_API_KEY,MAX_TOKENS&envDescription=OPENAI_API_KEY%20is%20required.&project-name=ai-couplets&repository-name=ai-couplets)
+
+1. 在 [DeepSeek 控制台](https://platform.deepseek.com/api_keys) 创建 API KEY 并保存
+2. 点击上方的一键部署按钮，填写项目名
+3. 填写环境变量，点击 Deploy 直接部署
+
+### 环境变量 Environments
+
+| 变量名          | 描述                      | 示例值                  |
+|-----------------|---------------------------|-------------------------|
+| OPENAI_ENDPOINT | OpenAI API 的访问端点     | `https://api.deepseek.com/v1`|
+| OPENAI_MODEL    | 使用的 OpenAI 模型名称    | `deepseek-chat`      |
+| OPENAI_API_KEY  | OpenAI 的 API 密钥        | `your-api-key`          |
+| MAX_TOKENS      | 生成文本的最大 token 数量 | `100`                   |
+
+## 开发 Development
+
+```bash
+# 安装依赖
+pnpm install
+# 启动开发服务器
+pnpm dev
+
+# 构建
+pnpm build
+```
+
 ## 赞助 Sponsor
 
 Buy me a coffee~
