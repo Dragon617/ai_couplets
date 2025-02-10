@@ -1,7 +1,5 @@
 # AI 春联生成器
 
-> _因为 DeepSeek 服务遭到攻击，API 暂时无法使用，因此本项目也暂时无法使用。_
-
 ![ai_couplets](https://socialify.git.ci/HoshinoSuzumi/ai_couplets/image?custom_description=%E8%BE%93%E5%85%A5%E4%B8%80%E5%8F%A5%E8%AF%9D%E5%B0%B1%E5%8F%AF%E4%BB%A5%E7%94%9F%E6%88%90%E4%B8%80%E5%89%AF%E5%AF%B9%E8%81%94%EF%BC%81%E5%8A%A9%E4%BD%A0%E6%88%90%E4%B8%BA%E5%AF%B9%E5%AF%B9%E8%81%94%E9%AB%98%E6%89%8B&description=1&font=Raleway&forks=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FHoshinoSuzumi%2Fai_couplets%2Frefs%2Fheads%2Fmain%2Fpublic%2Fandroid-chrome-192x192.png&name=1&pattern=Solid&stargazers=1&theme=Auto)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHoshinoSuzumi%2Fai_couplets&env=OPENAI_ENDPOINT,OPENAI_MODEL,OPENAI_API_KEY,MAX_TOKENS&envDescription=OPENAI_API_KEY%20is%20required.&project-name=ai-couplets&repository-name=ai-couplets)
 
